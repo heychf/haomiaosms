@@ -1,0 +1,21 @@
+{
+    "name": "heychf/haomiaosms",
+    "description": "send a message",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chf",
+            "email": "chenhuifeng@huitongjt.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "SMS\\CLSMS\\": "src/SMS/CLSMS"
+      }
+    }
+}
